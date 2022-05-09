@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(32, 29, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.title{
+    text-align: center;
+    color: green;
+    font-size: 40px;
+    text-shadow: 0 0 15px green;;
+}
+.subtitle{
+    text-align: center;
+    color:rgb(2, 49, 23);
+    font-size: 25px;
+    margin-top: -1%;
+}
+.inner{
+    width: 840px;
+    margin: 2% auto;
+    background-color:  rgb(57, 31, 71);
+    padding: 15px;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.textarea{
+    width: 860px;
+    height: 150px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 1% auto;  
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:   rgb(57, 31, 71);
+    color: green;
+    transition: 0.2s;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid  green;
+    color: green;
+}
+.active{
+    color:slategray ;
+    text-shadow:15px rgb(24, 56, 88);
+    background-color: green;
+    cursor: pointer;
+    border-color:green ;
+    box-shadow: 0 0 15px green;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.3s linear;
+  
+}
+
+.btn:hover,
+.btn:active
+
+{
+    background-color: green;
+    color:slategray ;
+    cursor: pointer;
+}
+.back-space{
+    width:100px ;
+    text-align: center;
+}
+.tab{
+    width: 90px;
+}
+
+.caps-lock{
+    width:100px ;
+}
+
+.alt,
+.ctrl{
+    width: 85px;
+}
+
+
+.enter{
+    width: 115px;
+}
+.shift{
+    width: 130px;
+}
+.space{
+    width: 465px;
+    
+}
+
